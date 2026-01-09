@@ -1,10 +1,10 @@
-# Name and topic - PHP Bergen
-![PHP Bergen - Presentation](https://github.com/PHP-Bergen/presentation_template/actions/workflows/php.yml/badge.svg)
+# PHP pipe operator - PHP Bergen
 
-The slides are located in `/docs`, and an [HTML version](https://php-bergen.github.io/presentation_template/).
-
+* Introduced with PHP 8.5.0. Release date: November 20, 2025.
+* [PHP 8.5 features](docs/index.md)
 
 ## References
 
+* [The slides](docs/index.md) are located in `/docs`.
 * PHP Bergen git repos can be found at https://github.com/PHP-Bergen
 * PHP Bergen home page: https://phpbergen.no
