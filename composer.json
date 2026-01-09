@@ -1,6 +1,6 @@
 {
-  "name": "phpbergen/202501",
-  "description": "PHP talk and demonstration",
+  "name": "phpbergen/pipe-operator",
+  "description": "PHP pipe operator presentation and demonstration",
   "homepage": "https://github.com/PHP-Bergen",
   "authors": [
     {
@@ -12,16 +12,16 @@
   "license": "MIT",
   "minimum-stability": "dev",
   "require": {
-    "php": ">=8.4"
+    "php": ">=8.5"
   },
   "config": {
     "platform": {
-      "php": "8.4"
+      "php": "8.5"
     }
   },
   "autoload": {
     "psr-4": {
-      "\\phpbergen\\TalkTopic\\": "src/"
+      "phpbergen\\PipeOperator\\": "src/"
     }
   },
   "autoload-dev": {
