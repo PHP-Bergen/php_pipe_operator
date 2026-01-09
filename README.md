@@ -1,7 +1,7 @@
 # PHP pipe operator - PHP Bergen
 
 * Introduced with PHP 8.5.0. Release date: November 20, 2025.
-* [PHP 8.5 features](docs/index.md)
+* [PHP pipe operator](docs/index.md)
 
 ## References
 
