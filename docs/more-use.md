@@ -1,7 +1,7 @@
-# PHP Pipe Operator - Intermediate Usage
+# PHP Pipe Operator - More on use
 
 ## Using with anonymous or arrow functions
-You can use the pipe operator with anonymous.
+You can use the pipe operator with anonymous functions.
 
 ```php
 $string = '  Hello PHP 8.5  ';
