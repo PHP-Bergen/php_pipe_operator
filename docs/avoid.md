@@ -2,11 +2,24 @@
 
 While the PHP pipe operator can enhance code readability and maintainability in many scenarios,
 there are situations where its use may not be appropriate. 
-Here are some antipatterns to consider:
+Here are some usecases to consider:
 
-## Working with complex data structures
+## When the pipe operator adds more verbosity than clarity
+I.e using the pipe operator for single transformations is most often pointless and adds unnecessary verbosity to the code.
+For example, in the following code, the pipe operator add more verbosity than it removes:
 
-When dealing with complex data structures, using the pipe operator can lead to less readable code.
+```php
+$result = 'PHP Bergen' |> strtolower(...);
+```
+Better to just use:
+
+```php
+$result = strtolower('PHP Bergen');
+```
+
+## Working with complex data structures with fluent APIs
+
+When dealing with complex data structures with APIs that already chain naturally, using the pipe operator can lead to less readable code.
 In such cases, traditional method calls or array manipulations may be clearer.
 
 I.e when building a query or loading data through Drupal's core services,
@@ -34,15 +47,19 @@ $nids = \Drupal::entityQuery('node')
 
 ## Pass-by-reference
 The pipe operator does not support passing arguments by reference.
-
 The following code attempts to use the pipe operator with a function that modifies its argument by reference:
 
 ```php
 function increment(int &$value): void {
     $value++;
 }
+
 $number = 5;
-$number |> increment(...); // This will not work as expected
+$number |> increment(...); // PHP Warning:  Uncaught Error: increment(): Argument #1 ($value) could not be passed by reference
+
+var_dump($number);
 ```
+
+### [< More use](more-use.md) 
 
 ## [> Home](../README.md) > [Index](index.md)

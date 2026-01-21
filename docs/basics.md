@@ -17,7 +17,6 @@ Using the pipe operator:
 
 ```php
 $result_pipe = $string |> trim(...) |> strtolower(...);
-
 ```
 
 Pipes whatever that is on the left hand to the right hand. Notice the use of the the first-class callable syntax  `...` Introduced in [PHP 8.1}(https://wiki.php.net/rfc/first_class_callable_syntax).
@@ -25,9 +24,11 @@ Pipes whatever that is on the left hand to the right hand. Notice the use of the
 Left to right? I think we have seen this before.
 
 ```shell
-ls src | grep pipe | | awk '{print}
+ls src | grep pipe | awk '{print}'
 
 result="$(ls src | grep pipe)"
 ```
+
+### [> Useful prior knowledge](useful-knowledge.md)
 
 ## [> Home](../README.md) > [Index](index.md)
