@@ -76,7 +76,8 @@ var_dump($result); // Outputs: 'hello-php-85-pipe-operator'
 ```
 
 ### Using with PHP 8.6 Partial Function Application (upcoming)
-[RFC >](https://wiki.php.net/rfc/partial_function_application_v2)
+
+[PHP RFC: Partial Function Application (v2)>](https://wiki.php.net/rfc/partial_function_application_v2) (Status: In Implementation)
 
 PHP 8.6 is expected to introduce "partial function application" and will make it even easier to work with functions that take multiple arguments.
 
