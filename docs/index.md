@@ -1,5 +1,6 @@
 # <img src="../images/elephpant_100.png" width="30"> PHP pipe operator
 
+<img src="../images/phpbergen.png" width="150" />
 
 
 * [The basics](basics.md)
