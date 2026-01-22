@@ -1,4 +1,4 @@
-# PHP Pipe Operator - More use
+# <img src="../images/elephpant_100.png" width="30"> PHP Pipe Operator - More use
 
 ## More examples of using the PHP pipe operator (`|>`)
 

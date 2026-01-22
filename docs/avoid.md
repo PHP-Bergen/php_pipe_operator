@@ -1,4 +1,4 @@
-# Pipe operator - when not to use it
+# <img src="../images/elephpant_100.png" width="30"> Pipe operator - when not to use it
 
 While the PHP pipe operator can enhance code readability and maintainability in many scenarios,
 there are situations where its use may not be appropriate. 

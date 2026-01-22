@@ -1,4 +1,4 @@
-# PHP 8.6
+# <img src="../images/elephpant_100.png" width="30"> PHP 8.6
 
 PHP 8.1 introduced the First-class Callable Syntax (FCC). It was a great step against full partial Function Application. PHP 8.6 completes FCC.
 

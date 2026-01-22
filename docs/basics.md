@@ -1,4 +1,4 @@
-# Pipe operator - the basics
+# <img src="../images/elephpant_100.png" width="30"> Pipe operator - the basics
 
 * [RFC: Pipe Operator (|>)](https://wiki.php.net/rfc/pipe-operator-v3)
 

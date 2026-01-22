@@ -1,4 +1,4 @@
-# Pipe operator - useful knowledge
+# <img src="../images/elephpant_100.png" width="30"> Pipe operator - useful knowledge
 
 ## The `...` token
 
@@ -113,6 +113,7 @@ function multiply(int ...$numbers): int { // <-- variadic parameter
 
 $values = [2, 3, 4];
 $result = multiply(...$values); // <-- argument unpacking  - equivalent to multiply(2, 3, 4)
+
 echo $result; // Outputs: 24
 ```
 

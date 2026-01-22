@@ -1,4 +1,6 @@
-# PHP pipe operator
+# <img src="../images/elephpant_100.png" width="30"> PHP pipe operator
+
+
 
 * [The basics](basics.md)
 * [Useful knowledge](useful-knowledge.md)
