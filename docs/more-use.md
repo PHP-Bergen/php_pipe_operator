@@ -30,7 +30,7 @@ When using functions that take multiple arguments, you need to use an anonymous 
 $string = '  Hello PHP 8.5  ';
 $result = $string
     |> (fn($s) => str_replace('8.5', '8.5 pipe operator', $s))
-    |> trim($s);
+    |> trim(...);
 
 var_dump($result); // Outputs: 'Hello PHP 8.5 pipe operator'
 ```
