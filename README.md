@@ -7,6 +7,7 @@
 
 ## References
 
+* [Presentation Github repository](https://github.com/PHP-Bergen/php-pipe-operator)
 * [The slides](docs/index.md) are located in `/docs`.
 * PHP Bergen git repos can be found at https://github.com/PHP-Bergen
 * PHP Bergen home page: https://phpbergen.no
