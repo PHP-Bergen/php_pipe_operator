@@ -23,7 +23,6 @@ var_dump($result); // Outputs: 'hello-php-85-pipe-operator'
 
 ### PHP 8.6 syntax:
 
-
 * The argument place holder `?` means that exactly one argument is expected at this position.
 * The variadic place holder `...` means that zero or more arguments may be supplied at this position.
 
